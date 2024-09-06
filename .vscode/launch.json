@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Soma",
+            "request": "launch",
+            "mainClass": "questao01.Soma",
+            "projectName": "TargetSistemas-Estágio-SãoPaulo_c902085d"
+        },
+        {
+            "type": "java",
+            "name": "VerificaFibonacci",
+            "request": "launch",
+            "mainClass": "questao02.VerificaFibonacci",
+            "projectName": "TargetSistemas-Estágio-SãoPaulo_c902085d"
+        },
+        {
+            "type": "java",
+            "name": "FaturamentoDistribuidora",
+            "request": "launch",
+            "mainClass": "questao03.FaturamentoDistribuidora",
+            "projectName": "TargetSistemas-Estágio-SãoPaulo_c902085d"
+        }
+
+        {
+                "type": "java",
+                "name": "Launch Main",
+                "request": "launch",
+                "mainClass": "FaturamentoDistribuidora",
+                "classpath": [
+                  "lib/json-simple-1.1.1.jar"
+                ]
+        }
+            
+          
+          
+    ]
+}
